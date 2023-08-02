@@ -15,3 +15,17 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+**/mvnw
+**/mvnw.cmd
+
+**/.mvn
+**/target/
+# 父工程的.idea也可以去除
+.idea
+# 所有子模块的ignore都可以去除，只留下父工程的.gitignore就行
+**/.gitignore
+
+
+
+
